@@ -1,0 +1,20 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+//Colors
+$accentColor: #FFD101;
+$textAccentColor: #1A404C;
+$lightWhiteColor: #F7F7F8;
+$footerColor: #EBECED;
+$yellowFadeDeog: linear-gradient(45deg, rgba(255,244,194,1) 0%, rgba(233,212,116,1) 100%);
+$yellowFadeDeogCTA: linear-gradient(135deg, rgba(255,211,10,1) 0%, rgba(255,237,158,1) 100%);
+$yellowFadeVert: linear-gradient(0deg, rgba(255,244,194,1) 0%, rgba(233,212,116,1) 100%);
+$blueFadeDeog: linear-gradient(225deg, rgba(145,163,169,1) 0%, rgba(198,207,210,1) 100%);
+$greenFadeDeog: linear-gradient(45deg, rgba(221,228,211,1) 0%, rgba(164,183,136,1) 100%);
+$grayFadeDeog: linear-gradient(45deg, rgba(221,220,217,1) 0%, rgba(161,156,147,1) 100%);
+
+//Shadow
+.shadow { -webkit-box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.25);
+            -moz-box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.25);
+}

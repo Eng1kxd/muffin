@@ -1,0 +1,16 @@
+.FormSection1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 86px;
+}
+
+@media (max-width: 390px) {
+    .FormSection1 {
+        flex-wrap: wrap;
+    
+    }
+    .formSection1_img {
+        width: 380px;
+        margin: auto;
+    }
+}

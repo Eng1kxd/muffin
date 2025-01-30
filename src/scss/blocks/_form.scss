@@ -1,0 +1,41 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+    max-width: 453px;
+    width: 100%;
+    
+}
+.input {
+    border: 1px black solid;
+    height: 55px;
+    align-items: center;
+    padding-left: 19px;
+    }
+
+#file {
+    background-image: url(../images/icons/upload.svg);
+    background-repeat: no-repeat;
+    
+}
+.file-input {
+    display: none;
+}
+.custom-button { 
+    background-repeat: no-repeat;
+    align-items: center;
+    padding-top: 16px;
+}
+
+@media (max-width: 390px) {
+    .inputs {
+        max-width: 380px;
+        margin: auto;
+    }
+    .form__title {
+        text-align: center;
+    }
+    .ButtonOrder__form {
+        display: flex;
+        justify-content: center;
+    }
+}

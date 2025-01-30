@@ -1,0 +1,37 @@
+.whyWe {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    &__wrapper {
+        margin-top: 68px;
+    }
+    &__container {
+        border-radius: 27px;
+        border-start-start-radius: 97px;
+        height: 260px;
+        width: 100%;
+        max-width: 284px;
+        flex-wrap: wrap;
+    }
+
+    &__img {
+        margin-top: 24px;
+    }
+    &__title {
+        margin-top: 38px;
+        margin-bottom: 19px;
+    }
+    &__desc {
+    text-align: center;
+    }
+}
+@media (max-width: 390px) {
+    .whyWe {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        &__adaptive {
+            margin-top: 41px;
+        }
+    }
+}

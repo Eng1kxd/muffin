@@ -1,0 +1,28 @@
+.SectionHeader {
+    margin-top: 61px;
+    display: flex;
+    justify-content: space-between;
+    &_left {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 390px) {
+    .SectionHeader {
+        flex-wrap: wrap;
+        &__title, &__desc {
+            padding-left: 10px;
+        }
+        &_right {
+            width: 380px;
+            margin: auto;
+        }
+    }
+    #SectionHeader__buttonCall {
+        margin: auto;
+        margin-bottom: 47px;
+    }
+}

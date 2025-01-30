@@ -1,0 +1,42 @@
+.header {
+    padding: 36px;
+    max-width: 1020px!important;
+    width: 100%;
+    margin: auto;
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__nav-list {
+        display: flex;
+        gap: 25px;
+    }
+    &__wrapper {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 390px) {
+    .header {
+        padding: 0;
+        height: 100px;
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__nav-list {
+        gap: 15px;
+        margin: auto;
+    }
+    }
+    .logo {
+        margin: auto;
+        margin-top: 18px;
+    }
+    
+    #header__buttonCall {
+        display: none;
+    }
+}

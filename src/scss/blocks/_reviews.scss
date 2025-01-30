@@ -1,0 +1,23 @@
+.reviews {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__card {
+        width: 100%;
+        max-width: 300px;
+        height: 300px;
+        flex-direction: column;
+        display: flex;
+        
+    }
+    
+}
+
+
+@media (max-width: 390px) {
+    .reviews__wrapper {
+        justify-content: center;
+    }
+}

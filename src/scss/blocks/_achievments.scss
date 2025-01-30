@@ -1,0 +1,28 @@
+.achievments {
+    &__wrapper {
+        background: $yellowFadeVert;
+        height: 120px;
+        margin-top: 81px;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-around;
+    }
+    &_left, &_right, &_middle {
+        align-items: center;
+        text-align: center;
+        margin-top: 16px;
+    }
+}
+
+@media (max-width: 390px) {
+    .achievments {
+        &__wrapper {
+            height: 360px;
+        }
+        &__content {
+            flex-direction: column;
+            height: 340px;
+        }
+    }
+}

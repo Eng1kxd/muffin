@@ -1,0 +1,256 @@
+//reset
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+html {
+  height: 100%;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-family: "Montserrat", serif;
+}
+#root {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+main {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+}
+
+//font-size
+.fnsz14 {
+  font-size: 14px;
+}
+.fnsz16 {
+  font-size: 16px;
+}
+.fnsz18 {
+  font-size: 18px;
+}
+.fnsz20 {
+  font-size: 20px;
+}
+.fnsz24 {
+  font-size: 24px;
+}
+.fnsz32 {
+  font-size: 32px;
+}
+.fnsz36 {
+  font-size: 36px;
+}
+.fnsz48 {
+  font-size: 48px;
+}
+a {
+  color: initial;
+  text-decoration: none;
+}
+
+
+//fonts
+.light {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.medium {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.extraBold {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.bold {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.accentColor {
+  color: $textAccentColor;
+}
+
+//buttons
+.button {
+  width: 130px;
+  height: 44px;
+  color: white;
+  background-color: $accentColor;
+  border-radius: 2px;
+}
+.buttonBlack {
+  width: 130px;
+  height: 44px;
+  color: white;
+  background-color: black!important;
+  border-radius: 2px;
+}
+.mb16 {
+  margin-bottom: 16px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.marAuto {
+  margin: auto;
+}
+.flexC {
+  display: flex;
+  justify-content: center;
+}
+.mt41 {
+    margin-top: 41px;
+}
+.mt26 {
+  margin-top: 26px;
+}
+.textAlCenter {
+  text-align: center;
+}
+.lineHeight24 {
+  line-height: 24px;
+}
+.mb16 {
+  margin-bottom: 16px;
+}
+.cursorPointer {
+  cursor: pointer;
+}
+.flexCAdaptive {
+  display: flex;
+  justify-content: center;
+}

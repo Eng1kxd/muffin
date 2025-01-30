@@ -1,0 +1,35 @@
+.sweets {
+    display: flex;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 10px;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 960px;
+    }
+    &__card {
+        border-radius: 35px;
+    }
+    &__mainWrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+    }
+}
+
+@media (max-width: 390px) {
+    .sweets {
+        &_h1 {
+            text-align: center;
+            margin-top: 47px;
+        }
+        &__card {
+            margin-top: 21px;
+        }
+        &__wrapper {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

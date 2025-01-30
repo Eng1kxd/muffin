@@ -1,0 +1,44 @@
+.CTABanner {
+    max-width: 960px;
+    width: 100%;
+    height: 170px;
+    border-radius: 20px;
+    background: $yellowFadeDeogCTA;
+    &__wrapper {
+        padding-top: 46px;
+        width: 100%;
+        max-width: 800px;
+        margin: auto;
+    }
+    &_H1 {
+        margin-bottom: 28px;
+    }
+    &_bot {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 390px) {
+    .CTABanner {
+        margin-top: 29px!important;
+        height: 220px;
+        &_H1 {
+            display: flex;
+             justify-content: center;
+             margin-bottom: 0;
+        }
+        &_bot {
+            flex-direction: column;
+            &_p {
+                text-align: center;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+        }
+        &__wrapper {
+        padding-top: 22px;
+        }
+    }
+}

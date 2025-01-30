@@ -1,0 +1,17 @@
+.blog {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    &__wrapper {
+        width: 100%;
+        max-width: 300px;
+        
+    }
+}
+
+@media (max-width: 390px) {
+    .blog {
+        justify-content: center;
+    }
+}
