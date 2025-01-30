@@ -11,7 +11,9 @@
     align-items: center;
     padding-left: 19px;
     }
-
+#phone {
+    display: none;
+}
 #file {
     background-image: url(../images/icons/upload.svg);
     background-repeat: no-repeat;
@@ -25,7 +27,11 @@
     align-items: center;
     padding-top: 16px;
 }
-
+.inputMask {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
 @media (max-width: 390px) {
     .inputs {
         max-width: 380px;
